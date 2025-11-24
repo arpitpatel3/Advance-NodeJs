@@ -1,1 +1,6 @@
 
+{
+  "preferredCities": ["New York", "London", "Tokyo"],
+  "unit": "Celsius"
+}
+
