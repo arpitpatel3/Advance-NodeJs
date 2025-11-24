@@ -30,7 +30,7 @@ async function main() {
     await simulateClickRecommended();
 
     // Dynamically import only when needed
-    const { default: recommend } = await import("./recommendations/recommend.js");
+    const { default: recommend } = await import("./recommendation/recommend.js");
     const recs = await recommend(user.id, getTitles(catalog), watchlist.list());
     info(`Recommended movies: ${JSON.stringify(recs)}`);
 
