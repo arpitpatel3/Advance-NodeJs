@@ -18,5 +18,5 @@ export function calculateBill(user) {
 
 
 export function billingSummary(users) {
-  return users.map(calculateBill);
+  return users.map(calculateBill);}
 
